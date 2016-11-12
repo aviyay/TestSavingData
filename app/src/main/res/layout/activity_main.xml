@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"    >
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/text_field"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:onClick="save"  />
+    <TextView
+        android:id="@+id/printer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp" />
+</LinearLayout>

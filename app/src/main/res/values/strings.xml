@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestSavingData</string>
+
+    <string name="button">Send!</string>
+    <string name="action_settings">Settings</string>
+    <string name="saved_message">message</string>
+</resources>
